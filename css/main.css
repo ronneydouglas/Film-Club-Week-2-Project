@@ -1,0 +1,31 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+}
+.calendar {
+  overflow: hidden;
+  overflow-x: auto;
+  background: white;
+  margin: .5px 10px .5px 10px;
+  border: .5px black;
+}
+
+  .calendar-days-wrapper {
+    height: 100px;
+    min-width: 200px;
+    width: 100%;
+    display: flex;
+  }
+
+  .calendar-day {
+    height: 100%;
+    background: ;
+    outline: .5px solid black;
+    flex: 1;
+  }
+
+.calendar-day-blank {
+    height: 100%;
+    background: white;
+    outline: .5px solid black;
+    flex: 1;
+}
