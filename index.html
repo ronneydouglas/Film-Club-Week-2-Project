@@ -14,72 +14,87 @@
     </head>
     <body>
         <nav>
-            <div class="nav-wrapper">
-                <div id="logo">
-                <img src="./images/filmclub.png" width=100px height=115px/>
-                </div>
-                <ul class="nav-row">
-                    <li class="nav-item">
+            <ul class="nav-row">
+                    <li class="nav-item" id="logo">
+                    <img src="./images/filmclub.png"
+                    width=100px height=115px>
+                    </li>
+                    <li class="nav-item" id="nav1">
                     <a href="">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" id=nav2>
                     <a href="./calendar/index.html">Calendar</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" id="nav3">
                     <a href="./join/index.html">Join</a>
                     </li>
                 </ul>
-            </div>
         </nav>
-        <section class="top-info">
-            <h1>Get Involved</h1>
-            <div class="info-boxes">
-                <div id="boxheads">Watch</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <div id="boxheads">Take Notes</div>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <div id="boxheads">Meetup</div>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <section class="top-message">
+            <p class="get-involved">Get Involved</p>
+        </section>
+        <section class="box-tops">
+            <div class="blue-boxes">
+                <div id="box-1">Watch</div>
+                <div id="box-2">Take Notes</div>
+                <div id="box-3">Meetup</div>
             </div>
         </section>
+        <section class="info-boxes">
+            <ul class="info-txt">
+                <li id="single-box">
+                    <p class="copy=left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </li>
+                <li id="single-box">
+                    <p class="copy-mid">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </li>
+                <li id="single-box">
+                    <p class="copy-right">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </li>
+            </ul>
+            <!-- </div> -->
+        </section>
     <main>
-        <h2>Up Next</h2>
+        <p id="up-next">Up Next</p>
+        <div id="wrap">
             <div class="feature-box">
                 <div class="movie-posters">
-                    <img src="./images/rashomon-poster.jpg" alt="Rashomon poster"/>
+                <img src="./images/rashomon-poster.jpg"
+                alt="Rashomon poster" width=215px height=305px>
                 </div>
-                <div class="feature-info">
+                <div id="feature-info">
                     <h2>Rashomon</h2>
                     <p>Film Club: 6/13</p>
                     <hr>
                     <h5>Discussion Points</h5>
-                    <ul>
-                        <li>perspective</li>
-                        <li>balance</li>
-                        <li>movement</li>
-                        <li>emphasis</li>
-                        <li>space</li>
-                    </ul>
+                        <ul>
+                            <li>perspective</li>
+                            <li>balance</li>
+                            <li>movement</li>
+                            <li>emphasis</li>
+                            <li>space</li>
+                        </ul>
                 </div>
             </div>
-            <div class="coming-soon">
+            <div class="soon-box">
                 <div class="movie-posters" id="movie-1">
-                    <div class="title-txt">The Great Train Robbery</div>
-                        <div class="date-txt">Film Club: 6/27</div>
+                    <div id="title-txt">The Great Train Robbery</div>
+                        <div id="date-txt">Film Club: 6/27</div>
                 </div>
                 <div class="movie-posters" id="movie-2">
-                    <div class="title-txt">The Bicycle Thief</div>
-                        <div class="date-txt">Film Club: 7/11</div>
+                    <div id="title-txt">The Bicycle Thief</div>
+                        <div id="date-txt">Film Club: 7/11</div>
                 </div>
                 <div class="movie-posters" id="movie-3">
-                    <div class="title-txt">Nosferatu</div>
-                        <div class="date-txt">Film Club: 7/25</div>
+                    <div id="title-txt">Nosferatu</div>
+                        <div id="date-txt">Film Club: 7/25</div>
                 </div>
                 <div class="movie-posters" id="movie-4">
-                    <div class="title-txt">Metropolis</div>
-                        <div class="date-txt">Film Club: 8/08</div>
+                    <div id="title-txt">Metropolis</div>
+                        <div id="date-txt">Film Club: 8/08</div>
                 </div>
             </div>
+        </div>
     </main>
     <footer>
         <div class="bottom-nav">
