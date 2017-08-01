@@ -1,75 +1,121 @@
 <!DOCTYPE html>
 
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-        <title>Film Club</title>
-        <meta content="" name="description">
-        <meta content="width=device-width, initial-scale=1" name="viewport">
-        <link href="css/main.css" type="text/css" rel="stylesheet" />
+   <head>
+     <meta charset="utf-8">
+     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+     <title>Film Club - Join</title>
+     <meta content="" name="description">
+     <meta content="width=device-width, initial-scale=1" name="viewport">
+     <link rel="stylesheet" type="text/css" href="../css/join.css"
+   </head>
 
-                    <!-- Ask about @import option -->
-        <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
-    </head>
-    <body>
-        <nav>
-            <div class="nav-wrapper">
-                <div id="logo">
-                <img src="../images/filmclub.png" width=100px height=115px/>
-                </div>
-                <ul class="nav-row">
-                    <li class="nav-item">
-                    <a href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a href="../calendar/index.html">Calendar</a>
-                    </li>
-                    <li class="nav-item">
-                    <a href="">Join</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    <main>
-        <h1>Join Film Club</h1>
-        <div>
-            <div></div>
-            <div></div>
+   <body>
+
+   <div class="navbar">
+      <img src="../images/filmclub.png" id="logo">
+      <div class="nav-row">
+          <p class="nav-item" id="nav1"><a href="../index.html">Home</a></p>
+          <p class="nav-item" id="nav2"><a href="../calendar/index.html">Calendar</a></p>
+          <p class="nav-item" id="nav3"><a href="">Join</a></p>
+          <p class="nav-item" id="box"></p>
+      </div>
+   </div>
+
+   <br>
+
+   <h1>Join Film Club</h1>
+      <div class="create-profile">
+        <div class="photo-upload">
+          <label for="fileUpload">profile picture</label><br>
+          <input type="file" id="fileUpload">
         </div>
-        <div>
-            <div></div>
-                <form></<form>
+        <img src="../images/profile-placeholder.png" id="profile-pic" alt="default image">
+        <div class="new-profile">
+          <div class="profile-info">
+            <label for="name">name</label><br>
+            <input type="text" id="name" name="name">
+          </div>
+          <div class="profile-info">
+            <label for="email">email address</label><br>
+            <input type="email" id="email" name="email">
+          </div>
+          <div class="profile-info">
+            <label for="password">password</label><br>
+            <input type="password" id="password" name="password">
+          </div>
+          <div class="profile-info">
+            <label for="confirm-password">confirm password</label><br>
+            <input type="password" id="confirm-password" name="confirm-password">
+          </div>
         </div>
-        <div>
-            <div></<div>
-                <form></form>
+      </div>
+
+      <br>
+
+      <p id="interests">Which genres are you interested in?</p>
+      <div class="checkboxes">
+        <div class="boxes">
+          <input type="checkbox" id="action" name="genre">
+          <label for="action">action</label>
         </div>
-        <p></p>
-        <div>
-            <ul></ul>
-            <ul></ul>
-            <ul></ul>
-            <ul></ul>
+        <div class="boxes">
+          <input type="checkbox" id="adventure" name="genre">
+          <label for="adventure">adventure</label>
         </div>
-        <form></form>
-        <div class="submit" value="Join Film Club" id="submit" />
+        <div class="boxes">
+          <input type="checkbox" id="comedy" name="genre">
+          <label for="comedy">comedy</label>
         </div>
-    <footer>
-        <div class="bottom-nav">
-            <ul class="nav-row">
-                <li class="nav-item">
-                <a href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                <a href="../calendar/index.html">Calendar</a>
-                </li>
-                <li class="nav-item">
-                <a href="">Join</a>
-                </li>
-            </ul>
+        <div class="boxes">
+          <input type="checkbox" id="drama" name="genre">
+          <label for="drama">drama</label>
         </div>
-        <div id="copywrite">© 2017, Film Club</div>
-    </footer>
-    </body>
+        <div class="boxes">
+          <input type="checkbox" id="fantasy" name="genre">
+          <label for="fantasy">fantasy</label>
+        </div>
+        <div class="boxes">
+          <input type="checkbox" id="historical" name="genre">
+          <label for="historical">historical</label>
+        </div>
+        <div class="boxes">
+          <input type="checkbox" id="horror" name="genre">
+          <label for="horror">horror</label>
+        </div>
+        <div class="boxes">
+          <input type="checkbox" id="mystery" name="genre">
+          <label for="mystery">mystery</label>
+        </div>
+        <div class="boxes">
+          <input type="checkbox" id="romance" name="genre">
+          <label for="romance">romance</label>
+        </div>
+        <div class="boxes">
+          <input type="checkbox" id="science_fiction" name="genre">
+          <label for="science_fiction">science fiction</label>
+        </div>
+        <div class="boxes">
+          <input type="checkbox" id="western" name="genre">
+          <label for="western">western</label>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="miscellaneous">
+        <label for="additional_input">additional input</label><br>
+        <input type="textarea" id="additional_input">
+      </div>
+      <input type="submit" placeholder="Join Film Club" value="Join Film Club"/>
+
+     <footer>
+      <div class="nav-row">
+          <p class="nav-item" id="nav1"><a href="../index.html">Home</a></p>
+          <p class="nav-item" id="nav2"><a href="../calendar/index.html">Calendar</a></p>
+          <p class="nav-item" id="nav3"><a href="">Join</a></p>
+      </div>
+      <div id="copywrite">© 2017, Film Club</div>
+   </footer>
+   </body>
 </html>

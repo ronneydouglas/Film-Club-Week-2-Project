@@ -1,117 +1,84 @@
-<!DOCTYPE html>
+<!Doctype html>
+<html>
+<head>
+    <title>Film Club - Calendar</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="discription" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/calendar.css">
+</head>
 
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-        <title>Film Club</title>
-        <meta content="" name="description">
-        <meta content="width=device-width, initial-scale=1" name="viewport">
-        <link href="../css/main.css" type="text/css" rel="stylesheet" />
+  <body>
 
-                    <!-- Ask about @import option -->
-        <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
-    </head>
-    <body>
-        <nav>
-            <div class="nav-wrapper">
-                <div id="logo">
-                <img src="../images/filmclub.png" width=100px height=115px/>
-                </div>
-                <ul class="nav-row">
-                    <li class="nav-item">
-                    <a href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a href="">Calendar</a>
-                    </li>
-                    <li class="nav-item">
-                    <a href="../join/index.html">Join</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    <header>
-        <h1>Meetup Calendar</h1>
-    </header>
-    <main>
-        <div class="calendar-wrapper">
-            <div class="calendar">
-              <div class="calendar-days-wrapper">
-                <div class="calendar-day">1</div>
-                <div class="calendar-day">2</div>
-                <div class="calendar-day">3</div>
-                <div class="calendar-day">4</div>
-                <div class="calendar-day">5</div>
-                <div class="calendar-day">6</div>
-                <div class="calendar-day">7</div>
-              </div>
-            </div>
-        </div>
-        <div class="calendar">
-          <div class="calendar-days-wrapper">
-            <div class="calendar-day">8</div>
-            <div class="calendar-day">9</div>
-            <div class="calendar-day">10</div>
-            <div class="calendar-day">11</div>
-            <div class="calendar-day">12</div>
-            <div class="calendar-day">13</div>
-            <div class="calendar-day">14</div>
-          </div>
-        </div>
-        <div class="calendar">
-          <div class="calendar-days-wrapper">
-            <div class="calendar-day">15</div>
-            <div class="calendar-day">16</div>
-            <div class="calendar-day">17</div>
-            <div class="calendar-day">18</div>
-            <div class="calendar-day">19</div>
-            <div class="calendar-day">20</div>
-            <div class="calendar-day">21</div>
-          </div>
-        </div>
-        <div class="calendar">
-          <div class="calendar-days-wrapper">
-            <div class="calendar-day">22</div>
-            <div class="calendar-day">23</div>
-            <div class="calendar-day">24</div>
-            <div class="calendar-day">25</div>
-            <div class="calendar-day">26</div>
-            <div class="calendar-day">27</div>
-            <div class="calendar-day">28</div>
-          </div>
-        </div>
-        <div class="calendar">
-          <div class="calendar-days-wrapper">
-            <div class="calendar-day">29</div>
-            <div class="calendar-day">30</div>
-            <div class="calendar-day">31</div>
-            <div class="calendar-day-blank"></div>
-            <div class="calendar-day-blank"></div>
-            <div class="calendar-day-blank"></div>
-            <div class="calendar-day-blank"></div>
-          </div>
-        </div>
-    </main>
+    <div class="navbar">
+      <img src="../images/filmclub.png" id="logo" alt="flim club logo">
+      <div class="nav-row">
+        <p class="nav-item" id="nav1"><a href="../index.html">Home</a></p>
+        <p class="nav-item" id="nav2"><a href="index.html">Calendar</a></p>
+        <p class="nav-item" id="nav3"><a href="../join/index.html">Join</a></p>
+        <p class="nav-item" id="box"></p>
+      </div>
+    </div>
 
+    <h1>Meetup Calendar</h1>
 
-
-
-    <footer>
-        <div class="bottom-nav">
-            <ul class="nav-row">
-                <li class="nav-item">
-                <a href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                <a href="">Calendar</a>
-                </li>
-                <li class="nav-item">
-                <a href="../join/index.html">Join</a>
-                </li>
-            </ul>
+    <section>
+      <h2>June</h2>
+      <div class="calendar-month">
+        <div class="calendar-week">
+          <div class="day"><p class="day-number">1</p></div>
+          <div class="day"><p class="day-number">2</p></div>
+          <div class="day"><p class="day-number">3</p></div>
+          <div class="day"><p class="day-number">4</p></div>
+          <div class="day"><p class="day-number">5</p></div>
+          <div class="day"><p class="day-number">6</p></div>
+          <div class="day"><p class="day-number">7</p></div>
         </div>
-        <div id="copywrite">© 2017, Film Club</div>
-    </footer>
-    </body>
+        <div class="calendar-week">
+          <div class="day"><p class="day-number">8</p></div>
+          <div class="day"><p class="day-number">9</p></div>
+          <div class="day"><p class="day-number">10</p></div>
+          <div class="day"><p class="day-number">11</p></div>
+          <div class="day"><p class="day-number">12</p></div>
+          <div class="day marked"><p class="day-number">13</p></div>
+          <div class="day"><p class="day-number">14</p></div>
+        </div>
+        <div class="calendar-week">
+          <div class="day"><p class="day-number">15</p></div>
+          <div class="day"><p class="day-number">16</p></div>
+          <div class="day"><p class="day-number">17</p></div>
+          <div class="day"><p class="day-number">18</p></div>
+          <div class="day"><p class="day-number">19</p></div>
+          <div class="day"><p class="day-number">20</p></div>
+          <div class="day"><p class="day-number">21</p></div>
+        </div>
+        <div class="calendar-week">
+          <div class="day"><p class="day-number">22</p></div>
+          <div class="day"><p class="day-number">23</p></div>
+          <div class="day"><p class="day-number">24</p></div>
+          <div class="day"><p class="day-number">25</p></div>
+          <div class="day"><p class="day-number">26</p></div>
+          <div class="day marked"><p class="day-number">27</p></div>
+          <div class="day"><p class="day-number">28</p></div>
+        </div>
+        <div class="calendar-week">
+          <div class="bottom-row"><p class="day-number">29</p></div>
+          <div class="bottom-row"><p class="day-number">30</p></div>
+          <div class="bottom-row"><p class="day-number">31</p></div>
+        </div>
+     </div>
+   </section>
+
+      <footer>
+       <div class="nav-row">
+         <p class="nav-item" id="nav1"><a href="../index.html">Home</a></p>
+         <p class="nav-item" id="nav2"><a href="index.html">Calendar</a></p>
+         <p class="nav-item" id="nav3"><a href="../join/index.html">Join</a></p>
+       </div>
+       <p id="copywrite">© 2017, Film Club</p>
+     </footer>
+  </body>
 </html>

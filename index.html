@@ -12,103 +12,87 @@
                     <!-- Ask about @import option -->
         <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
     </head>
+
     <body>
-        <nav>
-            <ul class="nav-row">
-                    <li class="nav-item" id="logo">
-                    <img src="./images/filmclub.png"
-                    width=100px height=115px>
-                    </li>
-                    <li class="nav-item" id="nav1">
-                    <a href="">Home</a>
-                    </li>
-                    <li class="nav-item" id=nav2>
-                    <a href="./calendar/index.html">Calendar</a>
-                    </li>
-                    <li class="nav-item" id="nav3">
-                    <a href="./join/index.html">Join</a>
-                    </li>
-                </ul>
-        </nav>
-        <section class="top-message">
-            <p class="get-involved">Get Involved</p>
-        </section>
-        <section class="box-tops">
-            <div class="blue-boxes">
-                <div id="box-1">Watch</div>
-                <div id="box-2">Take Notes</div>
-                <div id="box-3">Meetup</div>
-            </div>
-        </section>
-        <section class="info-boxes">
-            <ul class="info-txt">
-                <li id="single-box">
-                    <p class="copy=left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </li>
-                <li id="single-box">
-                    <p class="copy-mid">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </li>
-                <li id="single-box">
-                    <p class="copy-right">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </li>
-            </ul>
-            <!-- </div> -->
-        </section>
-    <main>
-        <p id="up-next">Up Next</p>
-        <div id="wrap">
-            <div class="feature-box">
-                <div class="movie-posters">
-                <img src="./images/rashomon-poster.jpg"
-                alt="Rashomon poster" width=215px height=305px>
-                </div>
-                <div id="feature-info">
-                    <h2>Rashomon</h2>
+
+        <div class="navbar">
+           <img src="./images/filmclub.png" id="logo">
+           <div class="nav-row">
+              <p class="nav-item" id="nav1"><a href="">Home</a></p>
+              <p class="nav-item" id="nav2"><a href="./calendar/index.html">Calendar</a></p>
+              <p class="nav-item" id="nav3"><a href="./join/index.html">Join</a></p>
+              <p class="nav-item" id="box"></p>
+           </div>
+        </div>
+
+        <h2>Get Involved</h2>
+
+        <section id="main-info">
+           <div class="info-here">
+             <div class="info-boxes">
+                <h3 class="blue-boxes">Watch</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+             </div>
+             <div class="info-boxes">
+                <h3 class="blue-boxes">Take Notes</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+             </div>
+             <div class="info-boxes">
+                <h3 class="blue-boxes">Meetup</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+             </div>
+          </div>
+       </section>
+
+
+       <section class="coming-soon">
+          <h1 id="up-next">Up Next</h1>
+            <div class="feature-box" id="feature-poster-box">
+               <img src="./images/rashomon-poster.jpg" id="feature-poster" alt="Rashomon poster">
+                  <div id="feature-info">
+                    <h3><a class="linkto-website" href="https://www.youtube.com/watch?v=7QTrx3YNz7A&t=8s" target="_blank">Rashomon</a></h3>
                     <p>Film Club: 6/13</p>
                     <hr>
-                    <h5>Discussion Points</h5>
-                        <ul>
+                    <p><strong>Discussion Points</strong></p>
+                        <ul id="bullet-points">
                             <li>perspective</li>
                             <li>balance</li>
                             <li>movement</li>
                             <li>emphasis</li>
                             <li>space</li>
                         </ul>
+                  </div>
+            </div>
+
+            <div class="feature-box">
+                <div class="movie-boxes">
+                   <img src="./images/great-train-poster.jpg" class="posters" alt="Great Train Robber Poster">
+                   <p><a class="linkto-website" href="https://www.youtube.com/watch?v=zuto7qWrplc" target="_blank">The Great Train Robbery</a></p>
+                   <p>Film Club: 6/27</p>
+                </div>
+                <div class="movie-boxes">
+                   <img src="images/bicycle-thief-poster.jpg" class="posters" alt="Bicycle Thief Poster">
+                   <p><a class="linkto-website" href="https://www.youtube.com/watch?v=H3jnzXX9mXs" target="_blank">The Bicycle Thief</a></p>
+                   <p>Film Club: 7/11</p>
+                </div>
+                <div class="movie-boxes">
+                   <img src="images/nosferatu-poster.jpg" class="posters" alt="Nosferatu Poster">
+                   <p><a class="linkto-website" href="https://www.youtube.com/watch?v=FC6jFoYm3xs" target="_blank">Nosferatu</a></p>
+                   <p>Film Club: 7/25</p>
+                </div>
+                <div class="movie-boxes">
+                   <img src="images/metropolis-poster.jpg" class="posters" alt="Metropolis Poster">
+                   <p><a class="linkto-website" href="https://www.youtube.com/watch?v=Q0NzALRJifI" target="_blank">Metropolis</a></p>
+                   <p>Film Club: 8/08</p>
                 </div>
             </div>
-            <div class="soon-box">
-                <div class="movie-posters" id="movie-1">
-                    <div id="title-txt">The Great Train Robbery</div>
-                        <div id="date-txt">Film Club: 6/27</div>
-                </div>
-                <div class="movie-posters" id="movie-2">
-                    <div id="title-txt">The Bicycle Thief</div>
-                        <div id="date-txt">Film Club: 7/11</div>
-                </div>
-                <div class="movie-posters" id="movie-3">
-                    <div id="title-txt">Nosferatu</div>
-                        <div id="date-txt">Film Club: 7/25</div>
-                </div>
-                <div class="movie-posters" id="movie-4">
-                    <div id="title-txt">Metropolis</div>
-                        <div id="date-txt">Film Club: 8/08</div>
-                </div>
-            </div>
-        </div>
-    </main>
-    <footer>
-        <div class="bottom-nav">
-            <ul class="nav-row">
-                <li class="nav-item">
-                <a href="">Home</a>
-                </li>
-                <li class="nav-item">
-                <a href="./calendar/index.html">Calendar</a>
-                </li>
-                <li class="nav-item">
-                <a href="./join/index.html">Join</a>
-                </li>
-            </ul>
+      </section>
+
+      <footer>
+        <div class="nav-row">
+           <p class="nav-item" id="nav1"><a href="index.html">Home</a></p>
+           <p class="nav-item" id="nav2"><a href="calendar/index.html">Calendar</a></p>
+           <p class="nav-item" id="nav3"><a href="join/index.html">Join</a></p>
         </div>
         <div id="copywrite">© 2017, Film Club</div>
     </footer>

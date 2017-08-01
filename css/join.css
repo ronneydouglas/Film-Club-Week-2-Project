@@ -1,0 +1,254 @@
+body {
+  font-family: "PT Sans";
+}
+
+.navbar {
+   display: flex;
+   flex-direction: row;
+   margin-top: 0px;
+}
+
+.nav-row {
+    list-style: none;
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+}
+
+.nav-item {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 6px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item a:hover {
+    background: #FFFFFF;
+}
+
+.nav-item a:active {
+    background: #968772;
+}
+
+#logo {
+    background-color: #F5005B;
+    padding: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+#nav1 {
+    background-color: #00A5BF;
+}
+
+#nav2 {
+    background-color: #00B7D3;
+}
+
+#nav3 {
+    background-color: #00D5E7;
+}
+
+#box {
+   display: none;
+}
+
+
+.photo-upload {
+  margin-bottom: 7vw;
+  margin-left: 2vw;
+}
+#profile-pic {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 360px;
+  margin-left: 12vw;
+}
+
+.profile-info {
+  margin-bottom: 5vw;
+  margin-left: 3vw;
+}
+
+.profile-info input {
+  padding: 2vw;
+  width: 80vw;
+}
+
+
+
+#interests {
+  padding-top: 4vw;
+  padding-left: 3vw;
+}
+
+.boxes {
+  margin-bottom: 3vw;
+  margin-left: 3vw;
+}
+
+.miscellaneous {
+  margin-top: 8vw;
+  margin-left: 3vw;
+}
+
+.miscellaneous input {
+  padding-bottom:10vw;
+  width: 95%;
+}
+
+input[type=submit] {
+  margin-left: 3vw;
+  margin-top: 5vw;
+  margin-bottom: 8vw;
+  width: 100px;
+  height: 50px;
+  padding: 5px 10px;
+  border: 0;
+  background: none;
+  box-shadow:none;
+  border-radius: 0px;
+  background-color: #F5005B;
+  color:#FFFFFF;
+}
+
+#copywrite {
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+@media(min-width: 545px) and (max-width:768px) {
+  .nav-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .nav-item {
+    flex-shrink: 20%;
+    padding: 37.05px;
+    align-self: center;
+  }
+
+  #box {
+    display:block;
+    flex-grow: 2;
+    flex-basis: 55%;
+    padding: 47.5px;
+    background-color: #7DDFE8;
+  }
+
+  .create-profile {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .photo-upload {
+    width: 100%;
+  }
+
+  #profile-pic {
+    margin-left: 2vw;
+    height: 35vw;
+    width: 35vw;
+  }
+
+  .profile-info {
+    margin-left: 6vw;
+  }
+
+  .profile-info input {
+    padding: 1vw;
+    width: 40vw;
+  }
+
+  .checkboxes {
+    display: flex;
+    flex-flow: row wrap;
+    width: 60%;
+  }
+
+  .boxes {
+    flex-grow: 1;
+    width: 40%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media(min-width: 769px) {
+
+  .nav-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-item {
+    flex-shrink: 20%;
+    padding: 37.05px;
+    align-self: center;
+  }
+
+  #box {
+    display:block;
+    flex-grow: 2;
+    flex-basis: 55%;
+    padding: 47.5px;
+    background-color: #7DDFE8;
+  }
+
+  .create-profile {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  #profile-pic {
+    margin-left: 2vw;
+    height: 30vw;
+    width: 30vw;
+    order: 2;
+  }
+
+  .new-profile {
+    display: flex;
+    flex-flow: row wrap;
+    width: 65%;
+  }
+
+  .profile-info {
+    margin-left: 1vw;
+    margin-bottom: 1.5vw;
+    padding: 0vw;
+    margin-right: 1vw;
+  }
+
+  .profile-info input {
+    padding: 1vw;
+    width: 26vw;
+  }
+
+  .checkboxes {
+    display: flex;
+    flex-flow: row wrap;
+    width: 75%;
+  }
+
+  .boxes {
+    margin-bottom: 0.5vw;
+    width: 27%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+  }
+
+}
